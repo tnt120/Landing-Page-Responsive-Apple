@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <title>Responsive landing page apple</title>
+    
+</head>
+<body>
+    
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#specs" class="nav__link">Specs</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#case" class="nav__link">Colors</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">Products</a>
+                    </li>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-function-fill"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="images/image1.png" alt="home_img" class="home__img">
+                </div>
+
+                <div class="home__data">
+                    <div class="home__header">
+                        <h1 class="home__title">New</h1>
+                        <h2 class="home__substitle">IPhone 12</h2>
+                    </div>
+
+                    <div class="home__footer">
+                        <h3 class="home__title-description">Overview</h3>
+                        <p class="home__description">Enjoy with new IPhone which will provide you with the highest efficiency and quality.</p>
+                        <a href="#" class="button button-flex">
+                            <span class="button-flex">
+                                <i class="ri-shopping-bag-2-line button__icon"></i> Buy
+                            </span>
+                            <span class="home__price">$899</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specs section grid" id="specs">
+            <h2 class="section__title section__title-gradient">Specs</h2>
+
+            <div class="specs__container container grid">
+                <div class="specs__content grid">
+                    <div class="specs__data">
+                        <i class="ri-wifi-line specs__icon"></i>
+                        <h3 class="specs__title">Connection</h3>
+                        <span class="specs__subtitle">Fast LTE connection</span>
+                    </div>
+                    <div class="specs__data">
+                        <i class="ri-battery-line specs__icon"></i>
+                        <h3 class="specs__title">Battery</h3>
+                        <span class="specs__subtitle">Up to 15h video</span>
+                    </div>
+                    <div class="specs__data">
+                        <i class="ri-wireless-charging-line specs__icon"></i>
+                        <h3 class="specs__title">Wireless charging</h3>
+                        <span class="specs__subtitle">Wireless charging and Fast Charge function</span>
+                    </div>
+                    <div class="specs__data">
+                        <i class="ri-camera-3-line specs__icon"></i>
+                        <h3 class="specs__title">Camera</h3>
+                        <span class="specs__subtitle">Camera up to 12MP, fantastic photos in the dark</span>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="images/specs.png" alt="specs" class="specs__img">
+                </div>
+            </div>
+        </section>
+
+        <section class="case section grid" id="case">
+            <h2 class="section__title section__title-gradient">Colors</h2>
+
+            <div class="case__container container grid">
+                <div>
+                    <img src="images/screen.png" alt="colors_png" class="case__img">
+                </div>
+
+                <div class="case__data">
+                    <p class="case__description">
+                        The new iPhone is available in 5 different colors. Starting from classic black to shiny red. Its reinforced screen is scratch-resistant.
+                    </p>
+
+                    <a href="#" class="button button-flex">
+                        <i class="ri-information-line button__icon"></i> More info
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="javascript/main.js"></script>
+</body>
+</html>
